@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "LN2Zs3aS0lqJlHeR9gW2xu5dNDU/RRRL+ssC/zYUI4uy5aM3vrfO3LalLdVTo+qDCvHMviijvRg1AntuBN/n6A==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Projects\\microservices-dotnet6\\AnimeShopping\\AnimeShopping.ProductAPI\\AnimeShopping.ProductAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\clenildon_ferreira\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\clenildon_ferreira\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\clenildon_ferreira\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\clenildon_ferreira\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\clenildon_ferreira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\clenildon_ferreira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
