@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AnimeShopping.ProductAPI.Model;
 
-[Table("products")]
+[Table("product")]
 public class Product : BaseEntity
 {
     [Column("name")]

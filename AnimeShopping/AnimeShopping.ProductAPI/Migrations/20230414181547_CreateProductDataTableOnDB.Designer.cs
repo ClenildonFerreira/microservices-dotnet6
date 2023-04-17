@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimeShopping.ProductAPI.Migrations
 {
     [DbContext(typeof(MySQLContext))]
-    [Migration("20230414122515_CreateProductDataTableOnDB")]
+    [Migration("20230414181547_CreateProductDataTableOnDB")]
     partial class CreateProductDataTableOnDB
     {
         /// <inheritdoc />
@@ -55,7 +55,7 @@ namespace AnimeShopping.ProductAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("products");
+                    b.ToTable("product");
                 });
 #pragma warning restore 612, 618
         }

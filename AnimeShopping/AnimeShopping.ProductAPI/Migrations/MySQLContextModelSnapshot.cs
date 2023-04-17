@@ -52,7 +52,7 @@ namespace AnimeShopping.ProductAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("products");
+                    b.ToTable("product");
                 });
 #pragma warning restore 612, 618
         }

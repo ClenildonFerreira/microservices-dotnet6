@@ -15,7 +15,7 @@ namespace AnimeShopping.ProductAPI.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "products",
+                name: "product",
                 columns: table => new
                 {
                     id = table.Column<long>(type: "bigint", nullable: false)
@@ -32,7 +32,7 @@ namespace AnimeShopping.ProductAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_products", x => x.id);
+                    table.PrimaryKey("PK_product", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
         }
@@ -41,7 +41,7 @@ namespace AnimeShopping.ProductAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "products");
+                name: "product");
         }
     }
 }
